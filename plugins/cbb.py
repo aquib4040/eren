@@ -54,13 +54,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         elif query.data == "start":
             buttons = [[
-            InlineKeyboardButton('💝 ᴊᴏɪɴ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+eKKOHxiwKv00MGM1')
+            InlineKeyboardButton('💝 ᴊᴏɪɴ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+eKKOHxiwKv00MGM1'),
+            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Ongoingmoviehub')
             ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+zlb3ReuJ40tjMDA1'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/KGN_BOT_Z')
             ],[
-                InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-                InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
