@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ {} 👋, ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ + 𝙒𝙊𝙍𝙆𝙄𝙉𝙂 𝙁𝙊𝙍 @HANTEI_HUB + sᴛʀᴇᴀᴍ / ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ғᴇᴀᴛᴜʀᴇ + ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ </b>"""
+    START_TXT = """<b>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ {} 👋, ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ + 𝙒𝙊𝙍𝙆𝙄𝙉𝙂 𝙁𝙊𝙍 @chrunchyrool + sᴛʀᴇᴀᴍ / ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ғᴇᴀᴛᴜʀᴇ + ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ </b>"""
 
 
 
@@ -24,7 +24,7 @@ Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/HANTEI_HUB)</b>"""
 
 
 
-    ABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ғᴏʀ @HANTEI_HUB
+    ABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ғᴏʀ @chrunchyrool
 
 🤖 ᴍʏ ɴᴀᴍᴇ: {}
 
@@ -39,7 +39,7 @@ Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/HANTEI_HUB)</b>"""
 📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/KGN_BOT_Z>KGN 𝐔𝐩𝐝𝐚𝐭𝐞</a></b>
 """
 
-    CABOUT_TXT = """<b>ʜɪ ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ғᴏʀ @HANTEI_HUB
+    CABOUT_TXT = """<b>ʜɪ ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ғᴏʀ @chrunchyrool
 
 🤖 ᴍʏ ɴᴀᴍᴇ: {}
 
@@ -55,7 +55,7 @@ Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/HANTEI_HUB)</b>"""
     CLONE_TXT = """<b> This Feature Is Not For Public Use This Bot For Clone @KGN_File_Store_Bot 😌</b>"""
 
 
-    HELP_TXT = """<b><u>💢ALL CODE BELOW MENTION IS ONLY FOR ADMIN IN THIS BOT USE @KGN_File_Store_Bot FOR USING HIS COMMANDS ☺️</u>
+    HELP_TXT = """<b><u>💢ALL CODE BELOW MENTION IS ONLY FOR ADMIN IN THIS BOT USE @KGN_File_Store_Bot FOR USING THIS COMMANDS ☺️</u>
 
 🔻 /link - ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴠɪᴅᴇᴏ ᴏʀ ғɪʟᴇ ᴛᴏ ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ
 
