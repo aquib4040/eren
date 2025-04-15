@@ -94,7 +94,8 @@ async def start(client, message):
         
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 ᴊᴏɪɴ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+eKKOHxiwKv00MGM1')
+            InlineKeyboardButton('💝 ᴊᴏɪɴ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+eKKOHxiwKv00MGM1'),
+            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Ongoingmoviehub')
             ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+zlb3ReuJ40tjMDA1'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/KGN_BOT_Z')
@@ -366,7 +367,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-             InlineKeyboardButton('💝 ᴊᴏɪɴ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+eKKOHxiwKv00MGM1')
+            InlineKeyboardButton('💝 ᴊᴏɪɴ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+eKKOHxiwKv00MGM1'),
+            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Ongoingmoviehub')
             ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+zlb3ReuJ40tjMDA1'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/KGN_BOT_Z')
