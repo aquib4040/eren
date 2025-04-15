@@ -28,8 +28,8 @@ BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
 PORT = environ.get("PORT", "8080")
 
 OWNER_ID = int(os.environ.get("OWNER_ID", )) #Owner user id < about display
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "") # WITHOUR @ < about display
-CHANNEL = os.environ.get("CHANNEL", "") # WITHOUR @ < about display
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "KGN_BOT_Z") # WITHOUR @ < about display
+CHANNEL = os.environ.get("CHANNEL", "chrunchyrool") # WITHOUR @ < about display
 
 # Clone Info :-
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
