@@ -42,6 +42,7 @@ async def incoming_gen_link(bot, message):
     if WEBSITE_URL_MODE == True:
         share_link = f"{WEBSITE_URL}?Eren={outstr}"
         reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Share URL", url=f'https://telegram.me/share/url?url={share_link}')]])
+        await second_message.reply_text(f"<b>Here is your link</b>\n\n{link}", quote=True, reply_markup=reply_markup)
     else:
         share_link = f"https://t.me/{username}?start={outstr}"
     if user["base_site"] and user["shortener_api"] != None:
