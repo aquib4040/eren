@@ -4,6 +4,7 @@
 
 import re
 from pyrogram import filters, Client, enums
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors.exceptions.bad_request_400 import ChannelInvalid, UsernameInvalid, UsernameNotModified
 from config import ADMINS, LOG_CHANNEL, PUBLIC_FILE_STORE, WEBSITE_URL, WEBSITE_URL_MODE
 from plugins.users_api import get_user, get_short_link
@@ -40,6 +41,7 @@ async def incoming_gen_link(bot, message):
     user = await get_user(user_id)
     if WEBSITE_URL_MODE == True:
         share_link = f"{WEBSITE_URL}?Eren={outstr}"
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Share URL", url=f'https://telegram.me/share/url?url={share_link}')]])
     else:
         share_link = f"https://t.me/{username}?start={outstr}"
     if user["base_site"] and user["shortener_api"] != None:
